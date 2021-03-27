@@ -20,7 +20,7 @@ subroutine diagonalize (matrix,eigenvectors,eigenvalues)
    integer                          :: n, lda, info, lwork
    integer                          :: ILAENV
 
-!  Determine the calculation mode
+!  Determine the calculation mode.
    if (present(eigenvectors)) then
       jobz = 'V'
    else

@@ -16,7 +16,7 @@ Subroutine IntegrationGrid(N,h,Grid)
     real*8, intent(out)                             :: h
     real*8, dimension(:), allocatable, intent(out)  :: Grid
     
-    ! Asks the user for the domain and the number of grid points
+    ! Asks the user for the domain and the number of grid points.
     print*, "Please enter the start of the domain."
     read*,a
     print*, "Please enter the end of the domain."

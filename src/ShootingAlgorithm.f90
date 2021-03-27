@@ -24,7 +24,7 @@ subroutine ShootingMethod(Matrix_V,EigVal,EigVec,N,h) ! change intents
     ! allocates space for the vectors that we are going to compare later on and that we fill with the outcome of EQ 10 & 11
     ! we use + 1 here to be able to calculate the derivative in xm
     ! we need another + 1 if the number of grid points is odd
-    ! also use O which is the actual point xm
+    ! also use O which is the actual point xm.
     if (mod(N,2) == 0) then
         xm = N / 2
     else

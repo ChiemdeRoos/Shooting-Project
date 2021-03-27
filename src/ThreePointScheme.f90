@@ -35,7 +35,7 @@ Subroutine ThreePointScheme(N,h,Matrix_V,EigVal,EigVec,Grid)
         read*,problem
     endif
 
-    ! selects what to solve based on user input. and fills the matrix with the potential
+    ! selects what to solve based on user input. and fills the matrix with the potential.
     select case(problem)
         case(1)
             print*,"You selected Particle in a box."
